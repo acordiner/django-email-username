@@ -5,6 +5,8 @@ django-email-username
 django-email-username allows the users of your Django-powered website to use their
 email address to login, rather than using a separate username field.
 
+|pypi| |build|
+
 Using django-email-username
 ===========================
 
@@ -72,3 +74,12 @@ License
 
 This software is licensed under the ``GPL v2 License``. See the ``LICENSE``
 file in the top distribution directory for the full license text.
+
+
+.. |pypi| image:: https://img.shields.io/pypi/v/django-email-username.svg?style=flat-square&label=latest%20version
+    :target: https://pypi.python.org/pypi/django-email-username
+    :alt: Latest version released on PyPi
+
+.. |build| image:: https://img.shields.io/travis/acordiner/django-email-username/master.svg?style=flat-square&label=unix%20build
+    :target: http://travis-ci.org/acordiner/django-email-username
+    :alt: Build status of the master branch
