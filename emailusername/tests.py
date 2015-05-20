@@ -9,8 +9,3 @@ class UserTests(TestCase):
         u1 = User.objects.create_user(email='foobar@example.com', password='pass')
         u2 = authenticate(email='foobar@example.com', password='pass')
         self.assertEqual(u1, u2)
-
-    def test_case_insensitive_email(self):
-        u1 = User.objects.create_user(email='foobar@example.com', password='pass')
-        u2 = authenticate(email='FooBar@eXample.com', password='pass')
-        self.assertEqual(u1, u2)
