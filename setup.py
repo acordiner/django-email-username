@@ -5,7 +5,7 @@ PROJECT_DIR = os.path.dirname(__file__)
 
 setup(
     name='django-email-username',
-    version='0.0.2',
+    version='0.0.3',
     packages=find_packages(),
     url='http://github.com/acordiner/django-email-username',
     license='GPL v2',
