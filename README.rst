@@ -83,3 +83,7 @@ file in the top distribution directory for the full license text.
 .. |build| image:: https://img.shields.io/travis/acordiner/django-email-username/master.svg?style=flat-square&label=unix%20build
     :target: http://travis-ci.org/acordiner/django-email-username
     :alt: Build status of the master branch
+
+.. |deps| image:: https://img.shields.io/requires/github/acordiner/django-email-username/master.svg?style=flat-square&label=dependencies
+    :target: https://requires.io/github/acordiner/csvquerytool/requirements/?branch=master
+    :alt: Status of dependencies
