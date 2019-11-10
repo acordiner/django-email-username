@@ -5,7 +5,7 @@ PROJECT_DIR = os.path.dirname(__file__)
 
 setup(
     name='django-email-username',
-    version='0.0.3',
+    version='0.0.4',
     packages=find_packages(),
     url='http://github.com/acordiner/django-email-username',
     license='GPL v2',
@@ -14,7 +14,7 @@ setup(
     description='Use email addresses in place of usernames in Django projects.',
     long_description=open(os.path.join(PROJECT_DIR, 'README.rst')).read(),
     install_requires=[
-        'django>=1.7,<1.9',
+        'django>=2.0',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
